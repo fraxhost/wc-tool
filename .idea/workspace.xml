@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92c7464d-2456-4345-868f-b675114099ba" name="Changes" comment="feature: step two completed;">
+    <list default="true" id="92c7464d-2456-4345-868f-b675114099ba" name="Changes" comment="feature: step three completed;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
@@ -132,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737381354267</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feature: step three completed;">
+      <option name="closed" value="true" />
+      <created>1737384023273</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737384023273</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +170,7 @@
     <MESSAGE value="init: word count tool project initialized;" />
     <MESSAGE value="feature: step one completed;" />
     <MESSAGE value="feature: step two completed;" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: step two completed;" />
+    <MESSAGE value="feature: step three completed;" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: step three completed;" />
   </component>
 </project>

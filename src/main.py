@@ -37,10 +37,16 @@ def get_total_lines(path, file_name):
 
 
 def get_total_words(path, file_name):
-    content = path.read_text(encoding='utf-8')  # Read file content
-    words = content.split()  # Split into words
+    content = path.read_text(encoding='utf-8')
+    words = content.split()
     word_count = len(words)
     return f"{word_count} {file_name}"
+
+
+def get_total_characters(path, file_name):
+    content = path.read_text(encoding='utf-8')
+    char_count = len(content) + content.count('\n') # adding content count probably to count \n as 2 characters instead of 1
+    return f"{char_count} {file_name}"
 
 
 def main():
@@ -56,6 +62,8 @@ def main():
                 print(get_total_lines(path, file_name))
             elif tool_function == '-w':
                 print(get_total_words(path, file_name))
+            elif tool_function == '-m':
+                print(get_total_characters(path, file_name))
 
         except FileNotFoundError:
             print("Error: The file does not exist.")
