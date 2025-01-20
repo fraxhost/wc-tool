@@ -30,6 +30,10 @@ def get_total_bytes(path, file_name):
     byte_count = len(bytes_in_file)
     return f"{byte_count} {file_name}"
 
+def get_total_lines(path, file_name):
+    line_count = sum(1 for line in path.open(encoding='utf-8'))
+    return f"{line_count} {file_name}"
+
 
 def main():
     while True:
@@ -40,6 +44,8 @@ def main():
         try:
             if tool_function == '-c':
                 print(get_total_bytes(path, file_name))
+            elif tool_function == '-l':
+                print(get_total_lines(path, file_name))
 
         except FileNotFoundError:
             print("Error: The file does not exist.")
