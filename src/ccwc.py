@@ -2,7 +2,6 @@ import utils
 
 
 def ccwc_file(tool_function, file_name):
-    print('12', tool_function, file_name)
     path = utils.get_path(file_name)
 
     try:
@@ -37,12 +36,9 @@ def ccwc_file(tool_function, file_name):
 
 
 def ccwc_content(tool_function, content):
-    print('2.1', tool_function)
-    print('2.2', tool_function)
     try:
         if tool_function == '-c':
             counts = [utils.get_total_bytes_from_content(content)]
-            print(counts)
             utils.print_result(counts, '')
         elif tool_function == '-l':
             counts = [utils.get_total_lines_from_content(content)]
