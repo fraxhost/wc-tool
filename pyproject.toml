@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "ccwc_fraxhost"
+version = "0.0.1"
+authors = [
+  { name="Ahmed Ryan", email="ahmedryanfaiyaz@gmail.com" },
+]
+description = "A tool that counts words"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+
+[project.scripts]
+ccwc = "ccwc_fraxhost.main:main"
+
+
+[project.urls]
+Homepage = "https://github.com/fraxhost/wc-tool"
+Issues = "https://github.com/fraxhost/wc-tool/issues"
