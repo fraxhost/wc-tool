@@ -4,35 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92c7464d-2456-4345-868f-b675114099ba" name="Changes" comment="feature: final step completed;">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wc-tool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wc_tool.iml" afterDir="false" />
+    <list default="true" id="92c7464d-2456-4345-868f-b675114099ba" name="Changes" comment="feature: installers added;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/wc-tool/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/wc-tool/ccwc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/wc-tool/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/wc-tool/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ccwc.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ccwc.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ccwc.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ccwc.egg-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ccwc.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ccwc-1.0-py3-none-any.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ccwc-1.0.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ccwc_fraxhost/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ccwc.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ccwc.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ccwc.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ccwc.egg-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ccwc.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ccwc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ccwc_fraxhost/ccwc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ccwc_fraxhost/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ccwc_fraxhost/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_utlis.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_utlis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ccwc_fraxhost-0.0.1-py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ccwc_fraxhost-0.0.1.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ccwc_fraxhost/ccwc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ccwc_fraxhost/ccwc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ccwc_fraxhost/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ccwc_fraxhost/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ccwc_fraxhost/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ccwc_fraxhost/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,6 +237,7 @@
     <MESSAGE value="feature: step five completed;" />
     <MESSAGE value="eod: stuck with tool_function bug;" />
     <MESSAGE value="feature: final step completed;" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: final step completed;" />
+    <MESSAGE value="feature: installers added;" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: installers added;" />
   </component>
 </project>
