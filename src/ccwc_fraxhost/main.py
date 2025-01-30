@@ -1,6 +1,6 @@
 import sys
-from ccwc import ccwc_file, ccwc_content
-from utils import parse_input
+from .ccwc import ccwc_file, ccwc_content
+from .utils import parse_input
 
 
 def main():
@@ -13,8 +13,8 @@ def main():
         tool_function, file_name = parse_input(sys.argv)
         ccwc_content(tool_function, input_content)
     else:
-        tool_function, file_name = parse_input(sys.argv)
-        ccwc_file(tool_function, file_name)
+        tool_function, file_path = parse_input(sys.argv)
+        ccwc_file(tool_function, file_path)
 
 
 if __name__ == "__main__":

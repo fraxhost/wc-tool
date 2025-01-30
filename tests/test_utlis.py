@@ -5,7 +5,7 @@ from pathlib import Path
 # Add the project root to sys.path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
-from src.utils import get_total_bytes_from_content, get_total_words_from_content, get_total_characters_from_content
+from src.ccwc_fraxhost.utils import get_total_characters_from_content
 
 
 class TestUtils(unittest.TestCase):

@@ -4,17 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92c7464d-2456-4345-868f-b675114099ba" name="Changes" comment="eod: stuck with tool_function bug;">
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_utlis.py" afterDir="false" />
+    <list default="true" id="92c7464d-2456-4345-868f-b675114099ba" name="Changes" comment="feature: final step completed;">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wc-tool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wc_tool.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ccwc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ccwc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/wc-tool/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/wc-tool/ccwc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/wc-tool/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/wc-tool/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccwc.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccwc.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccwc.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccwc.egg-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccwc.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ccwc-1.0-py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ccwc-1.0.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ccwc_fraxhost/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ccwc.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ccwc.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ccwc.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ccwc.egg-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ccwc.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ccwc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ccwc_fraxhost/ccwc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ccwc_fraxhost/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ccwc_fraxhost/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_utlis.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_utlis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,24 +75,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_utlis.TestUtils.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dev",
-    "last_opened_file_path": "C:/Coding Challenges/wc-tool/data"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_utlis.TestUtils.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Coding Challenges/wc_tool&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Coding Challenges\wc-tool\data" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Coding Challenges\wc-tool\src" />
+      <recent name="C:\Coding Challenges\wc-tool\serc" />
+      <recent name="C:\Coding Challenges\wc-tool\src\wc_tool_fraxhost" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="wc-tool" />
+      <module name="wc_tool" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,7 +109,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Coding Challenges\wc-tool\src\wc_tool_fraxhost\main.py" />
       <option name="PARAMETERS" value="-m &lt; ..\data\test.txt" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +119,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_utlis.TestUtils" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="wc-tool" />
+      <module name="wc_tool" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737558359764</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feature: final step completed;">
+      <option name="closed" value="true" />
+      <created>1737644679634</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737644679634</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +258,7 @@
     <MESSAGE value="feature: step four completed;" />
     <MESSAGE value="feature: step five completed;" />
     <MESSAGE value="eod: stuck with tool_function bug;" />
-    <option name="LAST_COMMIT_MESSAGE" value="eod: stuck with tool_function bug;" />
+    <MESSAGE value="feature: final step completed;" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: final step completed;" />
   </component>
 </project>

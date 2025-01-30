@@ -2,12 +2,8 @@ import sys
 from pathlib import Path
 
 
-def get_project_root():
-    return Path(__file__).parent.parent
-
-
-def get_path(file_name):
-    return Path(f"{get_project_root()}/data/{file_name}")
+def get_path(file_path):
+    return Path(file_path)
 
 
 def parse_input(arguments):

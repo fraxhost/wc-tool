@@ -1,8 +1,9 @@
-import utils
+from . import utils
 
 
-def ccwc_file(tool_function, file_name):
-    path = utils.get_path(file_name)
+def ccwc_file(tool_function, file_path):
+    path = utils.get_path(file_path)
+    file_name = path.name
 
     try:
         if tool_function == '-c':
